@@ -45,6 +45,7 @@ def simple_calculator(operation: str, num1: float, num2: float) -> float:
                 return number
             except ValueError:
                 print("Invalid input. Please enter a valid number.")
+                
 
 def main():
     
